@@ -25,20 +25,20 @@
         <h1>Contact Me</h1>
     </div>
     <main class="contact-container">
-        <form action="#" method="POST" onsubmit="handleSubmit()">
+        <form>
             <div class="name-box text-wrapper">
                 <label for="name-value">Name</label>
-                <input type="text" name="sender-name" id="name-value" placeholder="Enter your name:">
+                <input type="text" id="name" placeholder="Enter your name:">
             </div>
             <div class="email-box text-wrapper">
                 <label for="email-value">Email</label>
-                <input type="email" name="sender-name" id="email-value" placeholder="Enter your email:" required>
+                <input type="email"  id="email" placeholder="Enter your email:" required>
             </div>
             <div class="name-box text-wrapper">
                 <label for="message-value">Message:</label>
-                <textarea name="message-box" id="message-value" rows="10" placeholder="Enter your message here" maxlength="500"></textarea>
+                <textarea  id="message" rows="10" placeholder="Enter your message here" maxlength="500"></textarea>
             </div>
-            <button type="submit">Send</button>
+            <button type="button" id="sendBtn">Send</button>
         </form>
     </main>
     <footer class="footer-container" id="connect-footer">
@@ -56,29 +56,37 @@
             </div>
     </footer>
     <script>
-        const name = document.getElementById("name-value").value
-        const email = document.getElementById("email-value").value
-        const message = document.getElementById("message-value").value
-        const payload = {
+        const sendButton = document.getElementById("sendBtn")
+        sendButton.addEventListener("click", () => {
+            handleSubmit()
+        })
+        const handleSubmit = async() => {
+            const name = document.getElementById("name").value
+            const email = document.getElementById("email").value
+            const message = document.getElementById("message").value
+            const payload = {
             name, email, message
         }
-        const handleSubmit = async(event) => {
-            event.preventDefault();
+        console.log(payload)
             try {
                 const req = await fetch("https://sahilkhadkaapi.herokuapp.com/api/contact", {
                     method : "POST",
                     headers: {
                         "Content-Type": "application/json"
                     },
-                    body: JSON.stringify(payLoad)
+                    body: JSON.stringify(payload)
                 })
                 const result = await req.json();
-                if (result.success)
+                if (result.success) {
                     alert("Form Submitted")
+                    document.getElementById("name").value = ""
+                    document.getElementById("email").value = ""
+                    document.getElementById("message").value = ""
+                }
                 else 
                     alert("An error occured");
             } catch (error) {
-                alert("Server busy, cant process your message")
+                console.log(error)
             }
         }
     </script>
