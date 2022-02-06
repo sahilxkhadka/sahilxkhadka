@@ -25,7 +25,7 @@
         <h1>Contact Me</h1>
     </div>
     <main class="contact-container">
-        <form action="#" method="POST">
+        <form action="#" method="POST" onsubmit="handleSubmit()">
             <div class="name-box text-wrapper">
                 <label for="name-value">Name</label>
                 <input type="text" name="sender-name" id="name-value" placeholder="Enter your name:">
@@ -36,9 +36,9 @@
             </div>
             <div class="name-box text-wrapper">
                 <label for="message-value">Message:</label>
-                <textarea name="message-box" id="message-value" rows="10" placeholder="Enter your message here"></textarea>
+                <textarea name="message-box" id="message-value" rows="10" placeholder="Enter your message here" maxlength="500"></textarea>
             </div>
-            <button type="button">Send</button>
+            <button type="submit">Send</button>
         </form>
     </main>
     <footer class="footer-container" id="connect-footer">
@@ -55,5 +55,32 @@
                 Sahil Khadka &copy;2022 All Rights Reserved
             </div>
     </footer>
+    <script>
+        const name = document.getElementById("name-value").value
+        const email = document.getElementById("email-value").value
+        const message = document.getElementById("message-value").value
+        const payload = {
+            name, email, message
+        }
+        const handleSubmit = async(event) => {
+            event.preventDefault()
+            try {
+                const req = await fetch("https://sahilkhadkaapi.herokuapp.com/api/contact", {
+                    method : "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(payLoad)
+                })
+                const result = await req.json();
+                if (result.success)
+                    alert("Form Submitted")
+                else 
+                    alert("An error occured");
+            } catch (error) {
+                alert("Server busy, cant process your message")
+            }
+        }
+    </script>
 </body>
 </html>
