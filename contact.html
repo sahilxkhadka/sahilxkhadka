@@ -63,7 +63,7 @@
             name, email, message
         }
         const handleSubmit = async(event) => {
-            event.preventDefault()
+            event.preventDefault();
             try {
                 const req = await fetch("https://sahilkhadkaapi.herokuapp.com/api/contact", {
                     method : "POST",
