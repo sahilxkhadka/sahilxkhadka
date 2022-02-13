@@ -4,22 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="./images/icon.jpg">
     <script src="https://kit.fontawesome.com/1815c722ee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>About</title>
+    <title>About Sahil</title>
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="basic-heaing">
-            <h1 class="name-display hover-effect">Sahil Khadka</h1>
+    <nav class="app__navbar">
+        <div class="app__navbar-container">
+            <div class="app__navbar-heading">
+                <h1 class="headingtext">Sahil Khadka</h1>
+            </div>
+            <div class="app__navbar-menu">
+                <li class="app__navbar-link"><a href="./index.html">Home</a></li>
+                <li class="app__navbar-link"><a href="./about.html">About</a></li>
+                <li class="app__navbar-link"><a href="./contact.html">Contact</a></li>
+            </div>
         </div>
-        <div class="nav-container" id="menu-items-list">
-            <ul class="menu-items">
-                <li class="hover-effect"><a href="./index.html">Home</a></li>
-                <li class="hover-effect"><a href="./about.html">About</a></li>
-                <li class="hover-effect connect-menu"><a href="./contact.html">Contact</a></li>
-            </ul>
+        <div class="app__navbar-container_small">
+            <div class="app__navbar-heading_small">
+                <h1 class="headingtext">Sahil Khadka</h1>
+            </div>
+            <div class="app__navbar-hamburger" id = "ham-menu">
+                <img src= "./images/icons-ham.png"  id="ham-menu-img" alt="">
+            </div>
         </div>
+    </div>
+    <div class="app__navbar-menu_small" id="ham-menu-items">
+        <li class="app__navbar-link"><a href="./index.html">Home</a></li>
+        <li class="app__navbar-link"><a href="./about.html">About</a></li>
+        <li class="app__navbar-link"><a href="./contact.html">Contact</a></li>
+    </div>
     </nav>
     <div class="sub-heading" id="about-heading">
         <h1>About Me</h1>
@@ -72,5 +87,6 @@
                 Sahil Khadka &copy;2022 All Rights Reserved
             </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
