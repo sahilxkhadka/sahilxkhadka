@@ -97,6 +97,7 @@ body {
 
 .toggle {
     transform: translateX(0%);
+    display: flex;
 }
 .noscroll {
     overflow-y: hidden;
@@ -477,9 +478,6 @@ footer .footer-info {
         display: none;
     }
     .app__navbar-container_small {
-        display: flex;
-    }
-    .app__navbar-menu_small {
         display: flex;
     }
     .projects-container figure button {
