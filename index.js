@@ -10,3 +10,6 @@ hamMenu.addEventListener("click", () => {
 function handleLinks() {
     menuItems.classList.toggle("toggle")
 }
+function handleCv() {
+    window.open("./resume.docx")
+}
