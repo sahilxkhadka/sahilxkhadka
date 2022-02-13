@@ -74,7 +74,6 @@ body {
     background-color: white;
     justify-content: center;
     position: absolute;
-    transform: translateX(100%);
     backdrop-filter: blur(15px);
 }
 .app__navbar-menu_small li {
@@ -96,11 +95,11 @@ body {
 }
 
 .toggle {
-    transform: translateX(0%);
     display: flex;
 }
 .noscroll {
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 .basic-info {
     max-width: 85vw;
