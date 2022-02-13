@@ -4,12 +4,10 @@ const bodyEl = document.querySelector("body")
 
 hamMenu.addEventListener("click", () => {
     menuItems.classList.toggle("toggle")
-    bodyEl.classList.toggle("noscroll")
+    bodyEl.classList.add("noscroll")
 })
 
 function handleLinks() {
     menuItems.classList.toggle("toggle")
-}
-function handleCv() {
-    window.open("./resume.docx")
+    bodyEl.classList.remove("noscroll")
 }

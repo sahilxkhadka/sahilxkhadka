@@ -16,9 +16,11 @@
                 <h1 class="headingtext">Sahil Khadka</h1>
             </div>
             <div class="app__navbar-menu">
-                <li class="app__navbar-link"><a href="./index.html" onclick="handleLinks()">Home</a></li>
-                <li class="app__navbar-link"><a href="./about.html" onclick="handleLinks()">About</a></li>
-                <li class="app__navbar-link"><a href="./contact.html" onclick="handleLinks()">Contact</a></li>
+                <li class="app__navbar-link"><a href="./index.html" >Home</a></li>
+                <li class="app__navbar-link"><a href="./about.html">About</a></li>
+                <li class="app__navbar-link"><a href="#languages">Languages</a></li>
+                <li class="app__navbar-link"><a href="#projects">Projects</a></li>
+                <li class="app__navbar-link"><a href="./contact.html">Contact</a></li>
             </div>
         </div>
         <div class="app__navbar-container_small">
@@ -31,9 +33,11 @@
         </div>
     </div>
     <div class="app__navbar-menu_small" id="ham-menu-items">
-        <li class="app__navbar-link"><a href="./home.html">Home</a></li>
-        <li class="app__navbar-link"><a href="./about.html">About</a></li>
-        <li class="app__navbar-link"><a href="./contact.html">Contact</a></li>
+        <li class="app__navbar-link"><a href="./home.html" onclick="handleLinks()">Home</a></li>
+        <li class="app__navbar-link"><a href="./about.html" onclick="handleLinks()">About</a></li>
+        <li class="app__navbar-link"><a href="#languages" onclick="handleLinks()">Languages</a></li>
+        <li class="app__navbar-link"><a href="#projects" onclick="handleLinks()">Projects</a></li>
+        <li class="app__navbar-link"><a href="./contact.html" onclick="handleLinks()">Contact</a></li>
     </div>
     </nav>
     <div class="basic-info">
@@ -49,7 +53,7 @@
     <div class="sub-heading">
         <h1>Languages</h1>
     </div>
-    <section class="languages-container">
+    <section class="languages-container" id="languages">
             <figure>
                 <img src="./images/c-program.svg" alt="">
                 <figcaption>C</figcaption>
@@ -90,7 +94,7 @@
     <div class="sub-heading">
         <h1>Projects</h1>
     </div>
-    <section class="projects-container">
+    <section class="projects-container" id="projects">
         <figure class="resturant-project">
             <img src="./images/resturant.png" alt="resturant">
             <figcaption>Resturant Website</figcaption>
@@ -117,9 +121,9 @@
             <button><a href="https://sahilxkhadka.github.io/skrestro/" target="_blank">View Project</a></button>
         </figure>
     </section>
-    <div class="sub-heading">
+    <!-- <div class="sub-heading">
         <h1>Stay safe<br>stay connected.</h1>
-    </div>
+    </div> -->
     <footer class="footer-container" id="connect-footer">
         <div class="social-links">
             <a href="https://mobile.twitter.com/sahilkhadka15" target="_blank"><i class="fab fa-twitter"></i></a>

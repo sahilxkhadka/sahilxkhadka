@@ -72,14 +72,15 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 5rem;
     position: absolute;
-    backdrop-filter: blur(15px);
+    box-shadow: rgba(0, 0, 245, 0.5) 0px 30px 60px -12px inset, rgba(23, 6, 255, 0.6) 0px 18px 36px -18px inset;
 }
 .app__navbar-menu_small li {
     max-width:fit-content;
     list-style-type: none;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 .app__navbar-menu_small a {
@@ -87,7 +88,8 @@ body {
     color: var(--primary-color);
     font-size: 1.2rem;
     font-weight: 600;
-    width: fit-content;
+    width: min-content;
+    text-align: center;
 }
 .app__navbar a:hover {
     color: var(--hover-color);
@@ -484,6 +486,9 @@ footer .footer-info {
         font-weight: 500;
         padding: 0.5rem 1.5rem;
         margin-top: 10px;
+    }
+    .projects-container figure figcaption {
+        font-size: 1rem;
     }
 }
 @media (max-width: 1120px) {
