@@ -491,6 +491,11 @@ footer .footer-info {
         font-size: 1rem;
     }
 }
+@media screen and (min-width: 1400px) {
+    .app__navbar-menu_small {
+        display: none;
+    }
+}
 @media (max-width: 1120px) {
     .basic-info {
         flex-direction: column;
