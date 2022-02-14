@@ -62,7 +62,9 @@ body {
     justify-content: space-between;
 }
 .app__navbar-hamburger img{
-    max-width: 24px;
+    width: 24px;
+    height: 18px;
+    object-fit: cover;
     cursor: pointer;
 }
 .app__navbar-menu_small {
@@ -471,7 +473,7 @@ footer .footer-info {
 }
 
 
-@media(max-width: 700px ) {
+@media(max-width: 780px ) {
     .app__navbar-container {
         display: none;
     }
