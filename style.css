@@ -136,7 +136,7 @@ body {
     border-radius: 50%;
     height: 250px;
     width: 250px;
-    object-position: top;
+    object-position: left;
     object-fit: cover;
 }
 .sub-heading {
@@ -291,15 +291,17 @@ footer {
     padding: 4rem 2rem;
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--primary-color) ;
 }
 footer i {
     font-size: 2rem;
-    color: var(--primary-color);
+    color: #fff;
     margin-right: 2rem;
     position: relative;
 } 
 footer i:hover {
-    color: var(--hover-color);
+    color: #ddd;
+    transform: scale(1.2);
     transition: all 0.3s ease-in-out;
 }
 footer .email-info {
@@ -313,12 +315,14 @@ footer .email-info {
 }
 footer .email-info h2 {
     font-size: clamp(10px, 16px, 24px);
+    color: #fff;
     font-weight: 600;
 }
 footer .footer-info {
     margin-top: 20px;
     font-size: 1.4rem;
     font-weight: 600;
+    color: #fff;
 }
 #about-heading {
     display: flex;
