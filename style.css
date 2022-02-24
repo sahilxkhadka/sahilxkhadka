@@ -139,6 +139,41 @@ body {
     object-position: left;
     object-fit: cover;
 }
+   
+/*teardrop shape styling*/
+.scroll-arrow {
+position: fixed;
+right: 26px;
+bottom: 26px;
+width: 36px;
+height: 36px;
+background: rgba(0, 0, 0, 0.66);
+border-radius: 50% 0 50% 50%;
+transform: rotate(-45deg);
+z-index: 9;
+}
+
+/*text styling*/
+#scroll-text{
+color: white;
+position: fixed;
+right: 30px;
+bottom: 33px;
+font-size: 19px;
+z-index: 10;
+text-shadow: 2px 2px 10px purple;
+font-family: Arial, sans-serif;
+font-weight: bold;
+}
+#scroll-text:hover {
+color: lightgreen;
+}
+.show-button {
+    display: block;
+}
+.hide-button {
+    display: none;
+}
 .sub-heading {
     margin-left: auto;
     margin-right: auto;
