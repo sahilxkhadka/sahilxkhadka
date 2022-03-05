@@ -126,6 +126,7 @@ body {
 .basic-info .text-content::selection {
     color: var(--primary-color);
 }
+
 .highlight-text {
     font-size: 3rem;
     font-weight: 700;
