@@ -36,4 +36,5 @@ const observer = new IntersectionObserver(entries => {
     threshold: 1
 })
 
-observer.observe(basicInfo)
+
+observer.observe( basicInfo )

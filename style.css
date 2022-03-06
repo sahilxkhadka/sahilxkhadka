@@ -140,8 +140,8 @@ body {
     object-position: left;
     object-fit: cover;
 }
-   
-/*teardrop shape styling*/
+
+
 .scroll-arrow {
 position: fixed;
 right: 26px;
@@ -154,7 +154,7 @@ transform: rotate(-45deg);
 z-index: 9;
 }
 
-/*text styling*/
+
 #scroll-text{
 color: white;
 position: fixed;
