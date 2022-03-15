@@ -11,7 +11,7 @@
 
 - 📄 Know about my experiences [https://sahilxkhadka.github.io/myresume/](https://sahilxkhadka.github.io/myresume/)
 
-- ⚡ Fun fact **I always flex.**
+- ⚡ Fun fact **69 is NaN**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
