@@ -1,9 +1,11 @@
 <h1 align="center">Hi 👋, I'm Sahil Khadka</h1>
-<h3 align="center">Consistency and Result make the best key value pair.</h3>
+<h3 align="center">#000 and #fff.</h3>
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sahilxkhadka&label=Profile%20views&color=0e75b6&style=flat" alt="sahilxkhadka" /> </p>
 
 - 🌱 I’m currently learning **React.**
 
-- 👨‍💻 All of my projects are available at [https://www.sahilkhadka.com.np/](https://www.sahilkhadka.com.np/)
+- 👨‍💻 All of my projects are available at [https://sahilxkhadka.github.io/sahilxkhadka/](https://sahilxkhadka.github.io/sahilxkhadka/)
 
 - 💬 Ask me about **HTML, CSS, Js and React**
 
@@ -11,11 +13,11 @@
 
 - 📄 Know about my experiences [https://sahilxkhadka.github.io/myresume/](https://sahilxkhadka.github.io/myresume/)
 
-- ⚡ Fun fact **69 is NaN**
+- ⚡ Fun fact **I always flex.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/SahilKhadka15" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sahikhadka15" height="30" width="40" /></a>
+<a href="https://twitter.com/sahikhadka15" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="sahikhadka15" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/sahil-khadka" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sahil-khadka" height="30" width="40" /></a>
 <a href="https://instagram.com/sahil_khadka_627" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sahil_khadka_627" height="30" width="40" /></a>
 </p>
@@ -28,4 +30,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sahilxkhadka&show_icons=true&locale=en" alt="sahilxkhadka" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sahilxkhadka&" alt="sahilxkhadka" /></p>
-
