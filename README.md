@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **React.**
 
-- 👨‍💻 All of my projects are available at [https://sahilxkhadka.github.io/sahilxkhadka/](https://sahilxkhadka.github.io/sahilxkhadka/)
+- 👨‍💻 All of my projects are available at [https://www.sahilkhadka.com.np/](https://www.sahilkhadka.com.np/)
 
 - 💬 Ask me about **HTML, CSS, Js and React**
 
