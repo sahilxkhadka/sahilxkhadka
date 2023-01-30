@@ -133,12 +133,39 @@ body {
     align-self: flex-start;
     color: var(--primary-color);
 }
-.basic-info .img-container img {
-    border-radius: 50%;
-    height: 250px;
+.basic-info .img-container {
+    position: relative;
     width: 250px;
-    object-position: left;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+.img-container::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    border-radius: 50%;
+    border: 10px solid rgb(88, 101, 242);
+    animation: border-pulse 4s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  }
+@keyframes border-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.basic-info .img-container img {
+    width: 100%;
+    object-position: center;
     object-fit: cover;
+    border-radius: inherit;
 }
 .scroll-arrow {
 position: fixed;
