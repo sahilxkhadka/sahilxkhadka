@@ -15,7 +15,8 @@
 
 - ⚡ Fun fact **I always flex.**
 
-<p><img src = "https://wallpapercave.com/wp/wp8358478.png></img></p>
+<p><img src = "https://wallpapercave.com/wp/wp8358478.png"></img></p>
+<br></br>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
