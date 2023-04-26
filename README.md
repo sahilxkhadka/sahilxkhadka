@@ -29,11 +29,11 @@
 
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sahilxkhadka&theme=dark&show_icons=true&locale=en&layout=compact" alt="sahilxkhadka" /></p>
+<p><img align="left" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=sahilxkhadka&theme=dark&show_icons=true&locale=en&layout=compact" alt="sahilxkhadka" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sahilxkhadka&theme=dark&show_icons=true&locale=en" alt="sahilxkhadka" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=sahilxkhadka&theme=dark&show_icons=true&locale=en" alt="sahilxkhadka" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sahilxkhadka&theme=dark" alt="sahilxkhadka" /></p>
+<p><img align="center" src="https://github-readme-streak-sta-sigma-fivets.herokuapp.com/?user=sahilxkhadka&theme=dark" alt="sahilxkhadka" /></p>
 
 ## Snake eating my contributions graph
 ![snake gif](https://github.com/sahilxkhadka/sahilxkhadka/blob/output/github-contribution-grid-snake.svg)
