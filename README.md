@@ -1,8 +1,8 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sahilxkhadka&label=Profile%20views&color=0e75b6&style=flat" alt="sahilxkhadka" /> </p>
 
-## 💫 About Me:
+# 💫 About Me:
 
-I’m currently working on React.<br>I'm looking to collaborate on Front End projects.<br>I'm looking for help with rtk query.<br>I'm currently learning typescript, rtk query.<br>Ask me about js, tailwind, bootstrap, react, redux toolkit, typescript.<br>
+👋 Hi, I'm a React developer looking for front-end collaboration opportunities.<br><br>🔭 I'm currently working on React and seeking help with rtk query.<br><br>👯 I'm interested in collaborating on front-end projects.<br><br>🌱 I'm learning TypeScript and exploring rtk query.<br><br>💬 Ask me anything about JavaScript, Tailwind, Bootstrap, Redux Toolkit, and React.<br><br>⚡ Fun fact: Did you know that Brendan Eich created JavaScript in just 10 days back in 1995?
 
 ## 🌐 Socials:
 
@@ -31,5 +31,3 @@ I’m currently working on React.<br>I'm looking to collaborate on Front End pro
 ![snake gif](https://github.com/sahilxkhadka/sahilxkhadka/blob/output/github-contribution-grid-snake.svg)
 
 ---
-
-<!-- [![](https://visitcount.itsvg.in/api?id=sahilxkhadka&icon=0&color=0)](https://visitcount.itsvg.in) -->
