@@ -1,3 +1,4 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sahilxkhadka&label=Profile%20views&color=0e75b6&style=flat" alt="sahilxkhadka" /> </p>
 # 💫 About Me:
 
 I’m currently working on React.<br>I'm looking to collaborate on Front End projects.<br>I'm looking for help with rtk query.<br>I'm currently learning typescript, rtk query.<br>Ask me about js, tailwind, bootstrap, react, redux toolkit, typescript.<br>
@@ -30,4 +31,4 @@ I’m currently working on React.<br>I'm looking to collaborate on Front End pro
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=sahilxkhadka&icon=0&color=0)](https://visitcount.itsvg.in)
+<!-- [![](https://visitcount.itsvg.in/api?id=sahilxkhadka&icon=0&color=0)](https://visitcount.itsvg.in) -->
