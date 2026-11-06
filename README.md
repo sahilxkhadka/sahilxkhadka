@@ -1,5 +1,13 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sahilxkhadka&label=Profile%20views&color=0e75b6&style=flat" alt="sahilxkhadka" /> </p>
 
+## 🚀 Featured Project: Wander Pixels
+
+<a href="https://wpix.vercel.app"><img src="https://raw.githubusercontent.com/sahilxkhadka/wander-pixels/main/assets/home-laptop.jpg" alt="Wander Pixels home page" width="640" /></a>
+
+Real photos of places, plates and pages, shared by the people who took them. Contributors post finds with up to five photos, build a link-in-bio profile and climb a daily leaderboard. Built with Next.js, Supabase and Vercel.
+
+[![Live site](https://img.shields.io/badge/live-wpix.vercel.app-4f8a3c)](https://wpix.vercel.app) [![Version](https://img.shields.io/github/v/release/sahilxkhadka/wander-pixels?label=version&color=4f8a3c)](https://github.com/sahilxkhadka/wander-pixels/releases) [![Feedback](https://img.shields.io/badge/feedback-issues-4f8a3c)](https://github.com/sahilxkhadka/wander-pixels/issues)
+
 # 💫 About Me:
 
 👋 Hi, I'm a React developer looking for front-end collaboration opportunities.<br><br>🔭 I'm currently working on React and seeking help with rtk query.<br><br>👯 I'm interested in collaborating on front-end projects.<br><br>🌱 I'm learning TypeScript and exploring rtk query.<br><br>💬 Ask me anything about JavaScript, Tailwind, Bootstrap, Redux Toolkit, and React.<br><br>⚡ Fun fact: Did you know that Brendan Eich created JavaScript in just 10 days back in 1995?
